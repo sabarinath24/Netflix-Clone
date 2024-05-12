@@ -1,0 +1,26 @@
+.hero-banner {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.hero-img {
+    height: 90vh;
+    width: 98.9vw;
+}
+
+.hero-img>img {
+    height: 105%;
+    width: 100%;
+}
+
+.hero-content {
+    position: absolute;
+    top: 60%;
+    left: 4%;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 8px;
+}

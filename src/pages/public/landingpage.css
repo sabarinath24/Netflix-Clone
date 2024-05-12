@@ -1,0 +1,138 @@
+.main-banner {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.5) 60%,
+            rgba(0, 0, 0, 0.8) 90%),
+        url(./../../assets/images/main-banner.jpg) center/cover no-repeat;
+    height: 100vh;
+    border-bottom: 5px solid rgba(128, 128, 128, 0.324);
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15%;
+}
+.watch-anywhere{
+    margin-top: -2%;
+    font-size: 1.5rem;
+}
+.ready-to-watch{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.Container-two{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+    /* margin-right: 40%; */
+    /* width: 100vw; */
+
+}
+.Banner-two{
+    margin-left: 40%;
+    margin-top: 7%;
+    /* border: 1px solid white; */
+    width: 47vw;
+    position: absolute;
+}
+.smalldiv{
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 10px;
+    width: 45%;
+    height: 48%;
+    display: flex;
+    position: absolute;
+    margin-left: -160%;
+    margin-top: 44%;
+    z-index: 5;
+}
+.strangerThings img{
+    height: 14vh;
+    padding: 5px;
+    padding-left: 10px;
+}
+.strangerDownload img{
+    height:10vh ;
+    padding-left: 60px;
+    padding-top: 22px;
+}
+.strangercontent .p1{
+    font-size: 1rem;
+    margin-left: 10px;
+    font-weight: 550;
+    padding-top: 29px;
+}
+.strangercontent .p2{
+    font-size: 1rem;
+    margin-left: 10px;
+    color: blue;
+}
+.Bannerfour, .Bannerfive{
+    margin-top: 50px;
+}
+.container-three .content{
+    /* border: 1px solid white; */
+    width: 35vw;
+    margin-left: -15%;
+}
+.banner-three img{
+    /* margin-right: 80%; */
+    margin-top: 12%;
+}
+.banner-three video{
+    margin-top: 12%;
+}
+.banner-four{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.container-four{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 9%;
+    /* border: 1px solid white; */
+    width: 47vw;
+}
+/* .contentBox {
+    display: flex;
+    gap: 20px;
+    width: 50vw;
+    margin-top: 10px;
+    margin-left: 25%;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content-box {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    justify-content: center;
+}
+.content-box input{
+    width: 27vw;
+}
+.Content-words{
+    font-size: 40%;
+}
+    @media screen and (max-width: 576px) {
+        .content-box {
+            flex-direction: column;
+            padding-bottom: 90px;
+        }
+
+        .main-title {
+            gap: 7px;
+        }
+    }
