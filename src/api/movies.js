@@ -3,7 +3,7 @@ import requests from "../libs/request";
 
 const REACT_APP_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNGRhODZkNWJiZGUwOTExNTYxNzE4ZWRlMDJjZGMxNiIsInN1YiI6IjY2M2U0ZTVlYjJlYTI4ZjAxNWYxZWU1MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HoCiKbX5lYC4rGavrL-2lcqSJrSfKEEuW4Q0Byd42yI'
 const REACT_APP_ACCOUNT_ID = '21262550'
-const REACT_APP_API_KEY = 'a4da86d5bbde0911561718ede02cdc16';
+const REACT_APP_API_KEY = '98ee6ed6cd75ae1b0a841a3b465a863d';
 export const getFetchTrending = async () => {
 	try {
 		const { data } = await axios.get(requests.fetchTrending);

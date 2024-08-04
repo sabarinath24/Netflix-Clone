@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 async function getWishlist() {
-  const REACT_APP_API_KEY = 'a4da86d5bbde0911561718ede02cdc16';
+  const REACT_APP_API_KEY = '98ee6ed6cd75ae1b0a841a3b465a863d';
   const REACT_APP_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNGRhODZkNWJiZGUwOTExNTYxNzE4ZWRlMDJjZGMxNiIsInN1YiI6IjY2M2U0ZTVlYjJlYTI4ZjAxNWYxZWU1MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HoCiKbX5lYC4rGavrL-2lcqSJrSfKEEuW4Q0Byd42yI';
 
   try {
